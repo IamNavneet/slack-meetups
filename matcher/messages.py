@@ -23,7 +23,7 @@ MATCH_INTRO = """*{person_1.casual_name}*, meet your pairing for this week, {per
 > {person_1.intro}
 
 
-Message each other here to *pick a time to meet* this week!
+Message each other here to pick a time to meet this week! Remember, *meet up remotely*. Schedule a :teams: or :slack: call.
 """
 UPDATED_AVAILABLE = "Sounds good! I’ll pair you with someone at the start of the upcoming round."
 UPDATED_UNAVAILABLE = "Okay, thanks for letting me know. I’ll ask again next time!"
@@ -42,4 +42,4 @@ UNSURE_YES_NO_ANSWER = "Sorry, I’m not sure what you mean! Though I hope to ga
 
 # questions to user, see also constants.py -> QUESTIONS
 ASK_IF_MET = "Last time on {start_date}, you paired with {other_person.full_name} (<@{other_person.user_id}>). Did you have a chance to meet up with {other_person.casual_name}?"
-ASK_IF_AVAILABLE = "Hey {person.casual_name}, want to be paired to meet someone new this week?"
+ASK_IF_AVAILABLE = "Hey {person.casual_name}, want to be paired to meet someone new this week? All meetings will happen remotely."
